@@ -1,0 +1,71 @@
+.gigant {
+  height: 60vh;
+  background-color: var(--teal);
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.gigant:nth-of-type(odd) {
+  background-color: var(--cyan);
+}
+h2,
+h3 {
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.btn-start {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+/* RESULTS-SEARCH */
+#results {
+  background: white;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  width: 30%;
+  max-height: 300px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.results-tooltip {
+  position: relative;
+}
+
+.results-tooltip::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+/* RESULTS-ITEM-SEARCH */
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.pointer {
+  cursor: pointer;
+}
+.good {
+  border-bottom: solid 2px var(--green);
+}
+.bad {
+  border-bottom: solid 2px var(--red);
+}
+.mark {
+  background-color: var(--yellow);
+}

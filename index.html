@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Template</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+      integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Reset -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-reboot.min.css"
+    />
+    <!-- Bootswatch Darkly-->
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/darkly/bootstrap.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- app Vue -->
+    <div id="app">
+      <h1 class="text-center m-3" id="inicio">Busca alguna película</h1>
+      <!-- boton para ir a una seccion especifica -->
+      <a id="hyper-link" href="#searchApp" class="d-none"></a>
+      <!-- boton para volver al inicio -->
+      <a href="#inicio" class="btn-start bg-dark rounded-circle d-none">
+        <i class="fas fa-arrow-circle-up fa-5x"></i>
+      </a>
+      <!-- buscador -->
+      <div class="input-group w-50 m-auto p-3 bg-white">
+        <div class="input-group-prepend">
+          <span class="input-group-text">buscador de secciones</span>
+        </div>
+        <input type="text" class="form-control" id="search" />
+      </div>
+      <!-- resultados -->
+      <div class="results-tooltip d-none"></div>
+      <div id="results" class="d-none"></div>
+      <!-- pagina content -->
+      <div>
+        <h2>Mad Max: furia en el camino</h2>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h2>Boyhood</h2>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h2>El origen</h2>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h2>Harry Potter y el prisionero de Azkaban</h2>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          nisi laborum nemo voluptas porro animi consequuntur eligendi ducimus.
+          Magni ipsam officia debitis laudantium sed eligendi quam ex voluptates
+          facere rerum. Lorem, ipsum dolor sit amet consectetur adipisicing
+          elit. Voluptatibus pariatur dolor qui eius. Iure eum sunt quos
+          voluptatibus ad vitae, pariatur sed laudantium sequi harum officia,
+          repudiandae eligendi. Blanditiis, obcaecati!
+        </div>
+        <h2>Red Social</h2>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h2>El Hobbit: la batalla de los cinco ejércitos</h2>
+        <div class="gigant">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
+          ratione expedita, vero aperiam itaque molestiae aliquid dicta
+          reprehenderit alias repellendus, laudantium nisi perferendis placeat
+          aut cupiditate maxime unde? Natus, quam. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Delectus officiis illo aliquam nulla
+          ullam voluptas, asperiores odit animi ad, voluptatem nostrum nemo, et
+          eaque aspernatur. Ipsam quis magnam impedit eius?
+        </div>
+        <h2>The Master: todo hombre necesita un guía</h2>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h2>Iron Man</h2>
+        <div class="gigant">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+          recusandae velit est ipsam veniam eligendi porro nisi officia nam non
+          aliquid, ipsa distinctio, nostrum tenetur corrupti, quis quasi fuga!
+          Dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+          quo doloremque doloribus adipisci iure vero ipsum ea. Inventore,
+          numquam beatae perspiciatis molestias officiis repellat corrupti
+          delectus, itaque laboriosam, nemo impedit?
+        </div>
+        <h3>El lobo de Wall Street</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>La La Land: una historia de amor</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>Parásitos</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>El hilo fantasma</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>Whiplash: música y obsesión</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>Once Upon a Time in Hollywood</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>El irlandés</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>El legado del diablo</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit
+          error repudiandae doloremque officiis atque libero necessitatibus
+          itaque. Velit officiis vitae laboriosam ab id repudiandae, facere
+          obcaecati dolorem quas. Vitae? Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Inventore ducimus ad esse voluptatibus optio nisi
+          perferendis alias sunt velit eveniet rem, veritatis quasi placeat
+          accusamus facere impedit! Tempore, quaerat hic!
+        </div>
+        <h3>Spider-Man: un nuevo universo</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
+          laborum in veniam quia eius praesentium voluptatem. Nemo, natus
+          impedit! Ea nostrum minima non quos. Doloribus iusto quia earum
+          reiciendis aliquid.
+        </div>
+        <h3>12 años de esclavitud</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+          iusto magni facere expedita perferendis pariatur in ipsa asperiores
+          optio id, eveniet delectus saepe labore, reprehenderit incidunt quos
+          consequatur ad? Numquam!
+        </div>
+        <h3>Avengers: Infinity War</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam,
+          perspiciatis harum similique provident distinctio saepe tempora quam
+          eos nemo quod doloribus reprehenderit atque optio in eligendi sed,
+          expedita eum!
+        </div>
+        <h3>Animales fantásticos y dónde encontrarlos</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem,
+          eveniet? Reprehenderit aliquam alias corrupti, voluptas minus
+          perspiciatis mollitia, iusto debitis placeat maiores assumenda, porro
+          ad exercitationem esse provident in facere.
+        </div>
+        <h3>Piratas del Caribe: El Cofre de la Muerte</h3>
+        <div class="gigant">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, ipsam
+          aut, non obcaecati minima a fuga atque quaerat architecto dolores
+          animi nam nemo magnam expedita hic, possimus delectus voluptas
+          corporis!
+        </div>
+        <h3>Maze Runner: correr o morir</h3>
+        <div class="gigant">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut rem
+          veniam nostrum molestias temporibus. Assumenda odio aliquid sint nemo
+          eveniet, odit optio, officia unde maxime, dicta minima eos illum vero?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nam
+          porro. Dolore cupiditate voluptatibus excepturi id perferendis alias
+          veritatis natus sed, rerum accusamus at! Quisquam voluptatum facere
+          aspernatur maxime magni.
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <div>
+      <!-- Vue -->
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <!-- Scripts Bootstrap -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
+      <!-- JavaScript -->
+      <script src="js/vue.js"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>
